@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(nvm list:*)",
+      "Bash(railway:*)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  direction: rtl;
+}
+
+body {
+  font-family: 'Noto Sans Hebrew', 'Frank Ruhl Libre', 'David Libre', sans-serif;
+  background-color: #f8fafc;
+}
+
+/* TipTap editor styles */
+.tiptap {
+  outline: none;
+  min-height: 80px;
+  padding: 0.75rem;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.tiptap p {
+  margin: 0;
+}
+
+.tiptap:focus {
+  outline: none;
+}
+
+/* Print-specific font classes */
+.font-frank-ruhl {
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+.font-noto-serif {
+  font-family: 'Noto Serif Hebrew', serif;
+}
+
+.font-david-libre {
+  font-family: 'David Libre', serif;
+}
+
+.font-noto-sans {
+  font-family: 'Noto Sans Hebrew', sans-serif;
+}
